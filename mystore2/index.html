@@ -11,8 +11,11 @@
 
 <body onload="showProducts()">
     <div class="header">
-    <h1>My Store</h1>
-    <h4 onclick="displayCart()">Cart:<span id="items"></span></h4>
+        <h1>My Store</h1>
+        <div class="head">
+            <div onclick="hideCart()">Home</div>
+            <div onclick="displayCart()">Cart : <span id="items"></span></div>
+        </div>
     </div>
     <hr />
 
